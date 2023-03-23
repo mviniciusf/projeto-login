@@ -29,14 +29,14 @@ section#login {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  
   overflow: hidden;
 
   background-color: white;
   width: 250px;
   height: 500px;
   border-radius: 20px;  
-
+  transform: translate(-50%, -50%);
   transition: width 0.3s, height 0.3s;
   transition-timing-function: ease;
 
@@ -92,10 +92,10 @@ div.campo > input {
   background-color: #6fe4e0;
   font-size: 1em;
   width: calc(95% - 34px) ;
-  height: 100%;
-  transform: translateY(-11px);
+  height: 100%;  
   border: 0px;
   border-radius: 8px;
+  transform: translateY(-10px);
  
 }
 
